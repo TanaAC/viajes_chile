@@ -59,6 +59,11 @@
 
    /*style featured*/
 
+   .featured{
+       margin-top: 160px; 
+   }
+
+
    .featured-card{
        max-width: 238px;
    }
@@ -87,20 +92,55 @@
        font-size: 14px;
    }
 
-
-
-
-
-
-
-
-
-    /*style contact*/ 
-    /*
-    .contact-line {
-        color: var(--light-blue);
-    }
+/*style contact-form*/
 
     .contact{
-        margin-top: 8rem;
-    } */
+        margin-top: 160px;
+    }
+
+    .contact-line {
+        color: var(--light-blue);
+        margin-bottom: 2rem;
+    }
+
+    .contacto-tittle{
+        font-size: 42px;
+        font-weight: 400;
+    }
+
+    .form{
+        background-color: white;
+        padding-top: 9rem;
+        padding-bottom: 13rem;
+    }
+
+    .btn  {
+        display: inline-block;
+        align-items: center;
+    }
+
+    .greeting{
+        padding-top: 6rem;
+    }
+
+    .press{
+        font-weight: lighter;
+        font-size: 12px;
+
+    }
+
+    /* style footer */
+
+    #footer {
+        background-color: var(--light-blue);
+        color: white;
+        
+        align-items: center;
+    }
+
+    #footer a{
+        color: white;
+        text-decoration: none;
+    }
+
+ 
