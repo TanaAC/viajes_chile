@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    :root {
+    --light-blue:#17a3b8;
+   
+    }
+
+/*estilos navbar*/
+
+    .logo{
+        width: 2rem;
+    }
+
+    .navbar{
+    background-color: var(--light-blue);
+    }
+
+    /*estilos carousel*/
+
+    .img-carousel{
+         height: auto;
+    }
