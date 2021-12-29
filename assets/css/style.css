@@ -5,24 +5,50 @@
     box-sizing: border-box;
     }
     
-    
     :root {
     --light-blue:#17a3b8;
    
     }
 
-/*estilos navbar*/
+    body{
+        background-color:black;
+        font-family: 'Cabin', sans-serif;
+    }
+
+/*style navbar*/
 
     .logo{
         width: 2rem;
+        margin-right: 5px;
     }
 
     .navbar{
     background-color: var(--light-blue);
     }
 
-    /*estilos carousel*/
+    /*style header carousel*/
 
     .img-carousel{
          height: auto;
     }
+
+    /*style header*/
+
+    .about-tittle{
+        margin-bottom: 25px;
+    }
+
+    .about-line{
+        color: var(--light-blue);
+    }
+
+    /*style main*/
+    .icons-main{
+        background-color: var(--light-blue);
+
+    }
+
+    .paragraph {
+        font-weight: 400;
+    }
+
