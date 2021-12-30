@@ -17,6 +17,10 @@
 
 /*style navbar*/
 
+    html{
+        scroll-behavior: auto !important;
+    }
+
     .logo{
         width: 2rem;
         margin-right: 5px;
@@ -24,6 +28,9 @@
 
     .navbar{
     background-color: var(--light-blue);
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
     }
 
     /*style header carousel*/
@@ -41,6 +48,7 @@
 
     .about-line{
         color: var(--light-blue);
+        height: 4px;
     }
 
     /*style main*/
@@ -50,6 +58,7 @@
         padding-right:152px;
         padding-top: 5px;
         padding-bottom: 5px;
+        color: white;
     }
 
     .paragraph {
@@ -76,6 +85,7 @@
    .featured-line{
     color: var(--light-blue);
     margin-bottom: 2rem;
+    height: 4px;
    }
 
    .card-body{
@@ -101,6 +111,7 @@
     .contact-line {
         color: var(--light-blue);
         margin-bottom: 2rem;
+        height: 4px;
     }
 
     .contacto-tittle{
@@ -110,8 +121,8 @@
 
     .form{
         background-color: white;
-        padding-top: 9rem;
-        padding-bottom: 13rem;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
     }
 
     .btn  {
@@ -123,18 +134,17 @@
         padding-top: 6rem;
     }
 
-    .press{
-        font-weight: lighter;
-        font-size: 12px;
+
+        
+
 
     }
 
     /* style footer */
 
-    #footer {
+    .footer {
         background-color: var(--light-blue);
         color: white;
-        
         align-items: center;
     }
 
