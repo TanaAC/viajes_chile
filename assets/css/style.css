@@ -139,6 +139,9 @@
         padding-top: 6rem;
     }
 
+    .fa-brands{
+        text-decoration: none;
+    }
 
     /* style footer */
 
@@ -152,5 +155,6 @@
         color: white;
         text-decoration: none;
     }
+
 
  
