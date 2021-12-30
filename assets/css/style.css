@@ -54,19 +54,19 @@
 
     /*style main*/
 
+   
 
-    .icons-main{
-        background-color: var(--light-blue);
-        padding-left: 152px;
-        padding-right:152px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        color: white;
+    .container .div-icons{
+        background-color: #17a3b8;
+    }
+
+    .i-icons{
+        color:white;
     }
 
     .paragraph {
         font-weight: 400;
-        max-width: 350px;
+        
     }
 
    /*style featured*/
